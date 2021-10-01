@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #3b82f6;
+  --dark-gray: #6d7281;
+  --offwhite: #f3f4f6;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+}
+
+.medium-padding {
+  padding: 2rem;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+label {
+  font-size: larger;
+}
+
+input {
+  margin: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.btn-primary {
+  border-radius: 0.5rem;
+  color: white;
+  border: 1px;
+  background-color: var(--primary-color);
+  padding: 0.5rem 2rem;
+  margin: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  text-align: center;
+  border-bottom-right-radius: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer-header {
+  color: white;
+  font-size: large;
+}
+input {
+  border-radius: 5px;
+  padding: 0.2rem 1rem;
+}
+
+.footer-header {
+  font-size: x-large;
+}
+
+#para-result {
+  font-size: x-large;
+  padding: 1rem;
+}
